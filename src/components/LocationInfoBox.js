@@ -5,6 +5,7 @@ const LocationInfoBox = ({ info }) => {
             <ul>
                 <li>ID: <strong>{info.id}</strong></li>
                 <li>Tytul: <strong>{info.title}</strong></li>
+                <li>Data: <strong>{info.date}</strong></li>
             </ul>
         </div>
     )
